@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "428067431641",
+    "project_id": "reelcash-83579",
+    "storage_bucket": "reelcash-83579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428067431641:android:c0bee7c0d7cc3768744ac8",
+        "android_client_info": {
+          "package_name": "com.reel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428067431641-9dsr68bd1fvvod0spl9f2gn16n7cfpqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reel",
+            "certificate_hash": "3e4d0841d6c05a01aa6195d99e36d1fe1bb1e0a3"
+          }
+        },
+        {
+          "client_id": "428067431641-s19bmjoah8r7tbos60vd13s84hnjkncr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reel",
+            "certificate_hash": "e4f9d68373097151e4df0b985b7db9b3196946a6"
+          }
+        },
+        {
+          "client_id": "428067431641-soqf27npr8980klt3nsea380bdparbvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH4IqwPKQ1h_bpcQchQbR6A2ZJGz_qIkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428067431641-soqf27npr8980klt3nsea380bdparbvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

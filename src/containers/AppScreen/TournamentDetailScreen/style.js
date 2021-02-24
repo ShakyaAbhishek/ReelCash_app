@@ -1,0 +1,167 @@
+import { ScaledSheet } from 'react-native-size-matters';
+import Constants from '../../../constants';
+
+const styles = ScaledSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    // paddingTop: '25@ms'
+  },
+  container1: {
+    flex: 1,
+    // backgroundColor: Constants.Colors.DarkGrayColor,
+    // marginTop:'25@ms'
+  },
+  ///ssss
+  locationPriceWrapper: {
+    // height: '67@ms',
+    marginBottom: '25@ms',
+    marginHorizontal: '17@ms',
+    borderRadius: '10@ms',
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.44,
+    shadowRadius: 6,
+    elevation: 5,
+    flexDirection: 'row',
+    padding: '15@ms',
+  },
+  locationWhiteText: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 14,
+    lineHeight: 18,
+    fontWeight: '500',
+    color: Constants.Colors.WhiteColor,
+  },
+  locationGreenText: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 12,
+    marginTop: '5@ms',
+    color: Constants.Colors.GreenColor,
+  },
+  marginLeft10: { marginLeft: '10@ms' },
+  tournamentNameTimeWrapper: {
+    // marginTop: '5@ms',
+    marginVertical: '15@ms',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  tNameStyle: {
+    color: Constants.Colors.GreenColor,
+    fontSize: 16,
+    lineHeight: 24,
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontFamily: 'ProximaNova-Regular',
+  },
+  tTimeStyle: {
+    color: Constants.Colors.WhiteColor,
+    fontSize: 12,
+    lineHeight: 16,
+    textAlign: 'center',
+    fontFamily: 'ProximaNova-Regular',
+  },
+  tImageWrapper: {
+    height: '208@ms',
+    borderRadius: '15@ms',
+    marginHorizontal: '15@ms',
+    marginTop: '15@ms',
+  },
+  tImageStyle: { height: '100%', width: '100%', borderRadius: '15@ms', },
+  dollarWrapper: { flex: 1.5, flexDirection: 'row' },
+  locationWrapper: { flex: 2, flexDirection: 'row' },
+  upComingWrapper: { marginHorizontal: '17@ms' },
+  tAllDetailWrapper: { flexDirection: 'row' },
+  flexCenter: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  detailHeadingStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 11,
+    textAlign: 'center',
+    color: Constants.Colors.WhiteColor,
+  },
+  detailGreenHeadingStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 14,
+    textAlign: 'center',
+    color: Constants.Colors.GreenColor,
+    fontWeight: '500',
+    marginTop: '6@ms',
+  },
+  detailGreenHeadingStyle1: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 14,
+    textAlign: 'center',
+    color: Constants.Colors.WhiteColor,
+    fontWeight: '500',
+    marginTop: '6@ms',
+  },
+  sapratorTextStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 16,
+    fontWeight: '500',
+    color: Constants.Colors.WhiteColor,
+    textAlign: 'center',
+  },
+  paddingVertical20: { paddingVertical: '20@ms' },
+  paddingHorizontal35: { paddingHorizontal: '35@ms' },
+  paddingVertical15: {
+    paddingVertical: '15@ms',
+  },
+  paddingVertical25: { paddingVertical: '25@ms' },
+  paddingHorizontal17: { paddingHorizontal: '17@ms' },
+  paddingBottom14: { paddingBottom: '14@ms' },
+  sapratorTextStyle1: {
+    color: Constants.Colors.WhiteColor,
+    fontSize: 16,
+    lineHeight: 24,
+    textAlign: 'center',
+    fontWeight: '500',
+    fontFamily: 'ProximaNova-Regular',
+  },
+  paddingTop25: { paddingTop: '25@ms' },
+  paddingBottom10: { paddingBottom: '10@ms' },
+  evenlyCenter: { justifyContent: 'space-evenly', alignItems: 'center' },
+  joinButtonWrapper: {
+    // position:'absolute',
+    // bottom:0,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingVertical: '30@ms',
+    marginBottom: -60
+  },
+  twoButtonWrapper: {
+    // position:'absolute',
+    // bottom:0,
+    width: '100%',
+    paddingVertical: '30@ms',
+    // paddingHorizontal: '20@ms',
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  shareButtonWrapper: {
+    height: '25@ms',
+    width: '25@ms',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // borderColor: Constants.Colors.WhiteColor,
+    // borderWidth: '1@ms',
+    position: 'absolute',
+    right: '-10@ms',
+    bottom: '0@ms',
+    // top: '0@ms',
+    // backgroundColor:'red'
+    // borderRadius: '10@ms',
+  },
+  sponsorImageStyle: { height: '80@ms', width: '90@ms' },
+  mainWrapper: { paddingBottom: '60@ms' },
+  HTMLViewStyle: { marginTop: '15@ms', backgroundColor: Constants.Colors.DarkGrayColor, width: '100%', paddingHorizontal: '5@ms' }
+});
+
+export default styles;

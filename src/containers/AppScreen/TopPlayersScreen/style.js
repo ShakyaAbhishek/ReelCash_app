@@ -1,0 +1,183 @@
+import { ScaledSheet } from "react-native-size-matters";
+import Constants from "../../../constants";
+
+const styles = ScaledSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Constants.Colors.DarkGrayColor,
+  },
+  container1: {
+    flex: 1,
+  },
+  topRankingCard: {
+    marginVertical: "20@ms",
+    paddingVertical: "20@ms",
+    elevation: 5,
+    backgroundColor: Constants.Colors.DarkGrayColor,
+  },
+  topRankingCard1: {
+    flexDirection: "row",
+  },
+  flexCenter: { flex: 1, justifyContent: "center", alignItems: "center" },
+  secondPersonImageWrapper: {
+    height: "60@ms",
+    width: "60@ms",
+    borderRadius: "30@ms",
+    borderWidth: "2@ms",
+    borderColor: Constants.Colors.BlueColor,
+  },
+  secondThirdImageStyle: {
+    height: "100%",
+    width: "100%",
+    borderRadius: "30@ms",
+  },
+  secondThirdrankTag: { position: "absolute", bottom: 5, left: 15 },
+  rankerNameTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 14,
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 18,
+  },
+  marginTop15: { marginTop: "15@ms" },
+  rankNumberTextStyle: {
+    marginTop: "5@ms",
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 14,
+    color: Constants.Colors.GreenColor,
+    lineHeight: 18,
+    fontWeight: "500",
+  },
+  firstRankerImageWrapper: {
+    height: "80@ms",
+    width: "80@ms",
+    borderRadius: "40@ms",
+    borderWidth: "2@ms",
+    borderColor: Constants.Colors.GreenColor,
+  },
+  firstRankerImageStyle: {
+    height: "100%",
+    width: "100%",
+    borderRadius: "40@ms",
+  },
+  firstRankTagStyle: {
+    position: "absolute",
+    zIndex: 3,
+    right: -28,
+    bottom: 30,
+  },
+  thirdRankerImageWrapper: {
+    height: "60@ms",
+    width: "60@ms",
+    borderRadius: "30@ms",
+    borderWidth: "2@ms",
+    borderColor: Constants.Colors.BlueTextColor,
+  },
+  listingWrapper: { flex: 1, paddingHorizontal: "17@ms" },
+  ///header styling form here
+  paddingTop20: { paddingTop: "20@ms" },
+  selectorWrapper: {
+    paddingBottom: "10@ms",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    borderBottomColor: Constants.Colors.WhiteColor,
+    borderBottomWidth: "1@ms",
+  },
+  selectorTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontWeight: "500",
+    fontSize: 13,
+    lineHeight: 18,
+    color: Constants.Colors.WhiteColor,
+  },
+  myStaticsTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 15,
+    fontWeight: "bold",
+    color: Constants.Colors.GreenColor,
+    paddingVertical: "18@ms",
+    lineHeight: 18,
+    textAlign: "center",
+  },
+  userRankCard: {
+    paddingVertical: "15@ms",
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    borderRadius: "10@ms",
+    flexDirection: "row",
+    marginHorizontal: "3@ms",
+    elevation: 5,
+    marginTop: "20@ms",
+  },
+  userImageNameWrapper: {
+    flex: 1,
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+  },
+  userImageWrapper: { height: "40@ms", width: "40@ms", borderRadius: "20@ms" },
+  userImageStyle: { height: "100%", width: "100%", borderRadius: "20@ms" },
+  userRankTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 15,
+    fontWeight: "bold",
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 18,
+  },
+  rankTitleWrapper: {
+    flexDirection: "row",
+    paddingTop: "20@ms",
+    paddingHorizontal: "3@ms",
+  },
+  flex1: { flex: 1 },
+  rankTitleText1: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 15,
+    lineHeight: 18,
+    color: Constants.Colors.WhiteColor,
+  },
+  rankTitleText2: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 15,
+    fontWeight: "bold",
+    lineHeight: 18,
+    color: Constants.Colors.WhiteColor,
+  },
+  flex3row: { flex: 3, flexDirection: "row" },
+  flex2: { flex: 2 },
+  ///listing style
+  listingCardWrapper: {
+    flexDirection: "row",
+    paddingTop: "10@ms",
+    paddingHorizontal: "3@ms",
+  },
+  rankCircleWrapper: {
+    height: "35@ms",
+    width: "35@ms",
+    borderRadius: "19@ms",
+    borderWidth: "1.5@ms",
+    borderColor: Constants.Colors.WhiteColor,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  rankTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 15,
+    fontWeight: "bold",
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 18,
+  },
+  flex3Center: { flex: 3, justifyContent: "center" },
+  listCardWrapper: {
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    flexDirection: "row",
+    paddingVertical: "10@ms",
+    paddingHorizontal: "20@ms",
+    marginRight: "5@ms",
+  },
+  buttonWrapper: {
+    elevation: 5,
+    zIndex: 1,
+  },
+});
+
+export default styles;

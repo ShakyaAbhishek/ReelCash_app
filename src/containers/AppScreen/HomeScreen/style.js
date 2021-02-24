@@ -1,0 +1,171 @@
+import { ScaledSheet } from "react-native-size-matters";
+import Constants from "../../../constants";
+import { Dimensions } from "react-native";
+const { width: screenWidth } = Dimensions.get("window");
+const styles = ScaledSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Constants.Colors.DarkGrayColor,
+  },
+  flex1: { flex: 1 },
+  ScrollableTabStyle: {
+    marginHorizontal: "20@ms",
+    paddingTop: "25@ms",
+  },
+  dividerWrapper: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    // margin: '1@ms',
+    marginTop: "20@ms",
+    marginHorizontal: "15@ms",
+  },
+  flex1_2: { flex: 1 },
+  dividerTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 16,
+    lineHeight: 16,
+    textAlign: "left",
+    color: Constants.Colors.WhiteColor,
+    fontWeight: "500",
+  },
+  flex3: { flex: 3 },
+  flex2: { flex: 2.5 },
+  divideLine: { height: "1@ms", backgroundColor: Constants.Colors.GreenColor },
+  notificationWrapper: {
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    marginBottom: "10@ms",
+    marginTop: "5@ms",
+    flexDirection: "row",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.44,
+    shadowRadius: 6,
+    elevation: 5,
+  },
+  flexCenter: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  notiDetailWrapper: { flex: 3.5, paddingVertical: "15@ms" },
+  notificationHeadingText: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: "bold",
+    color: Constants.Colors.WhiteColor,
+  },
+  notificationTimeText: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 13,
+    color: Constants.Colors.WhiteColor,
+  },
+  paddingVertical25: { paddingVertical: "20@ms" },
+  operatorWrapper: { paddingHorizontal: "20@ms",},
+  paddingVertical20: {
+    marginVertical: "20@ms",
+  },
+  calendarWrapper: {
+    marginHorizontal: "20@ms",
+    borderRadius: "10@ms",
+    elevation: 5,
+  },
+  calendarStyle: {
+    // height: '40@ms',
+    paddingTop: "15@ms",
+    paddingBottom: "15@ms",
+    borderRadius: "10@ms",
+  },
+  slideImageWrapper: {
+    width: "313@ms",
+    height: "195@ms",
+    marginLeft: "20@ms",
+    borderRadius: "20@ms",
+  },
+  slideImageStyle: { height: "100%", width: "100%", borderRadius: "20@ms" },
+  slider: {
+    // marginTop: '15@ms',
+    overflow: "visible", // for custom animations
+  },
+  sliderContentContainer: {
+    // paddingHorizontal:15,
+    // paddingVertical: '10@ms', // for custom animation
+  },
+  item: {
+    // width: '314@ms',
+    height: "196@ms",
+    paddingLeft: "10@ms",
+  },
+  blankItem: {
+    justifyContent: "center",
+    alignItems: "center",
+    borderColor: "white",
+    borderWidth: '1@ms',
+    borderRadius: '15@ms',
+  },
+  sliderImage: {
+    height: "100%",
+    width: "100%",
+    resizeMode: "cover",
+    borderRadius: "10@ms",
+  },
+  rankingButtonWrapper: {
+    height: "40@ms",
+    width: "85%",
+    alignSelf: "center",
+    marginBottom: "20@ms",
+    borderRadius: "20@ms",
+    borderWidth: "2@ms",
+    borderColor: Constants.Colors.WhiteColor,
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+  },
+  rankingTextStyle: {
+    fontFamily: "ProximaNova-Regular",
+    fontSize: 14,
+    lineHeight: 18,
+    fontWeight: "500",
+    color: Constants.Colors.WhiteColor,
+    marginLeft: "15@ms",
+  },
+  haveAccountWrapper: { alignItems: "center", justifyContent: "center" },
+  dontHaveAccountStyle: {
+    color: "white",
+    textAlign: "center",
+    alignItems:'center',
+    justifyContent:'center',
+    fontSize: 16,
+    // marginTop: "12@ms",
+    fontFamily: "ProximaNova-Regular",
+  },
+  registerTextStyle: {
+    fontSize: 16,
+    color: "green",
+    // marginTop: "22@ms",
+    textDecorationLine: "underline",
+    fontFamily: "ProximaNova-Regular",
+  },
+  emptyOperatorStyle: {
+    height:'96@ms',
+    marginTop: '15@ms',
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  eventDayBlueStyle: {
+    borderWidth: '2@ms',
+    height: '40@ms',
+    width: '40@ms',
+    borderRadius: '20@ms',
+    borderColor: Constants.Colors.BlueColor,
+  },
+  eventDayGreenStyle: {
+    borderWidth: '2@ms',
+    height: '40@ms',
+    width: '40@ms',
+    borderRadius: '20@ms',
+    borderColor: Constants.Colors.GreenColor,
+  },
+});
+export default styles;

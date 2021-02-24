@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReelCash</string>
+    <string name="facebook_app_id">391231875534061</string>
+    <string name="fb_login_protocol_scheme">fb391231875534061</string>
+</resources>

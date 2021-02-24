@@ -1,0 +1,100 @@
+import {ScaledSheet} from 'react-native-size-matters';
+import Constants from '../../constants';
+
+const styles = ScaledSheet.create({
+  // chat box style
+  talkBubble: {
+    backgroundColor: 'transparent',
+    marginBottom:'13@ms',
+    elevation: 5,
+  },
+  talkBubbleSquare: {
+    // width: '120@ms',
+    padding: '12@ms',
+    // height: 84,
+    minHeight: '84@ms',
+    elevation: 5,
+    backgroundColor: Constants.Colors.DarkGrayColor,
+    borderRadius: '10@ms',
+    // zIndex: 1,
+    marginLeft: '20@ms',
+  },
+  talkBubbleTriangle: {
+    position: 'absolute',
+    left: '5@ms',
+    bottom: '5@ms',
+    // elevation: 5,
+    width: '0@ms',
+    height: '0@ms',
+    borderTopColor: 'transparent',
+    borderTopWidth: '23@ms',
+    borderRightWidth: '22@ms',
+    borderRightColor: Constants.Colors.DarkGrayColor,
+    borderBottomWidth: '20@ms',
+    borderBottomColor: 'transparent',
+  },
+  talkBubbleTriangle1: {
+    position: 'absolute',
+    left: '-3@ms',
+    bottom: '5@ms',
+    elevation: 5,
+    // width: '0@ms',
+    // height: '0@ms',
+    // borderTopColor: 'transparent',
+    // borderTopWidth: '23@ms',
+    // borderRightWidth: '22@ms',
+    // borderRightColor: Constants.Colors.DarkGrayColor,
+    // borderBottomWidth: '20@ms',
+    // borderBottomColor: 'transparent',
+  },
+  flexRow: {flexDirection: 'row'},
+  userImageWrapper: {
+    height: '36@ms',
+    width: '36@ms',
+    // backgroundColor: 'red',
+    borderRadius: '18@ms',
+  },
+  commentBodyWrapper: {flex: 1, marginLeft: '15@ms'},
+  userNameTextStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 16,
+    fontWeight: '500',
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 18,
+  },
+  commentTextStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 13,
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 18,
+  },
+  commentImageStyle: {
+    height: '96@ms',
+    width: '245@ms',
+    // backgroundColor: 'red',
+    alignSelf: 'center',
+    borderRadius: '15@ms',
+    marginVertical: '8@ms',
+  },
+  timeDateTextStyle: {
+    fontFamily: 'ProximaNova-Regular',
+    fontSize: 10,
+    color: Constants.Colors.WhiteColor,
+    lineHeight: 16,
+    textAlign: 'right',
+  },
+  userImageStyle: {
+    height: '100%',
+    width: '100%',
+    resizeMode: 'cover',
+    borderRadius: '36@ms',
+  },
+  imageCommentStyle: {
+    height: '100%',
+    width: '100%',
+    resizeMode: 'cover',
+    borderRadius: '15@ms',
+  },
+});
+
+export default styles;
